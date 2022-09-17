@@ -15,7 +15,7 @@ function Loader() {
         )}
     
     return (
-        <div>
+        <div classname="loader">
         {play ? <App /> : <IntroScreen />}
         </div>
     )
